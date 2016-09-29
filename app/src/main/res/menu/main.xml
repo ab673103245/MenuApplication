@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:title="设置">
+
+
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/second_menu"
+        android:title="二级菜单"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        >
+        <menu >
+            <item
+                android:id="@+id/a21"
+                android:title="二级菜单1"
+                android:orderInCategory="3">
+            </item>
+
+            <item android:id="@+id/a22"
+                android:title="二级菜单2"
+
+                android:orderInCategory="2"
+                >
+
+                <menu>
+                    <item
+                        android:id="@+id/m31"
+                        android:title="三级菜单1"
+                        android:orderInCategory="3">
+
+                    </item>
+
+                    <item
+                        android:id="@+id/m32"
+                        android:title="三级菜单2"
+                        android:orderInCategory="1">
+
+                    </item>
+
+                </menu>
+
+            </item>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
